@@ -82,7 +82,7 @@ function checkLimit(limit) {
     refs.loadBtn.classList.add('hidden');
     refs.imagesMarkUp.insertAdjacentHTML(
       'beforeend',
-      `<p class="limit-message">"We're sorry, but you've reached the end of search results.</p>`
+      `<p class="limit-message">We're sorry, but you've reached the end of search results.</p>`
     );
     return;
   }
