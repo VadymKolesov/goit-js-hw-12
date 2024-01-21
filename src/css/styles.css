@@ -125,6 +125,13 @@
   font-weight: 900;
 }
 
+.loader-item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 32px 0 36px 0;
+}
+
 .loader {
   width: 48px;
   height: 48px;
@@ -143,4 +150,31 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.load-btn {
+  display: block;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px 8px 16px;
+  margin: 32px auto 36px auto;
+}
+
+.load-btn:hover {
+  background: #6c8cff;
+}
+
+.hidden {
+  display: none;
+}
+
+.limit-message {
+  width: 100%;
+  text-align: center;
+  padding: 32px 0 36px 0;
 }
